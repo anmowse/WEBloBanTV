@@ -1,0 +1,60 @@
+.cart {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+
+  thead tr{
+    font-weight: bold;
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0404f1;
+    color: white;
+  }
+  
+  td {
+    padding: 8px;
+  }
+  
+  img {
+    width: 70px;
+  }
+table th {
+    border: 1px solid #ddd;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+.listSanPham td {
+    border: 1px solid #ddd;
+}
+.count  {
+  font-size: 22px;
+  padding:  0 5px;
+  margin: 0;
+  text-align: center;
+  background: blue;
+  color: #ffff;
+}
+.cart__body .fa-trash {
+  font-size: 30px;
+  cursor: pointer;
+}
+.down{
+  cursor: pointer;
+}
+.up{
+  cursor: pointer;
+}

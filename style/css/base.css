@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Sedan+SC&family=Space+Grotesk:wght@300..700&display=swap');
+:root
+{
+    --color-gray:#00000033;
+    --font : "Sedan SC", serif;
+    --card-color: rgb(25, 25, 25);
+    --color--one: #34445D;
+}
+
+*{
+    box-sizing: border-box;
+}
+a{
+    color: black;
+    text-decoration: none; 
+}
+ul{
+    list-style: none;
+}
+a:hover{
+    text-decoration: none; 
+}
+body{
+    max-width: 100%;
+    overflow-x: hidden; 
+    background-image: url(/image/bg.png);
+    font-family: var(--font);
+    font-weight: 400;
+    font-style: normal;
+    outline: none;
+    color: black;
+}
+/* box */
+.btn{
+    color: #444;
+    background: transparent;
+    font-family: 'Archivo', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 7px 12px 6px;
+    border: 2px solid #ccc;
+    border-radius: 0;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+}
+.btn:hover{
+    color: rgb(18, 13, 119);
+    background: transparent;
+    border-color: rgb(18, 13, 119);;
+    animation: box 3s infinite;
+}
+.btn:before,
+.btn:after{
+    content: '';
+    background-color: rgb(18, 13, 119);
+    height: 4px;
+    width: 10px;
+    position: absolute;
+    top: -3px;
+    right: 10px;
+    transition: all 0.5s ease 0s;
+}
+.btn:after{
+    top: auto;
+    bottom: -3px;
+    right: auto;
+    left: 10px;
+}
+.btn:hover:before{
+    right: 85%;
+    animation: move 1s infinite;
+}
+.btn:hover:after{
+    left: 80%;
+    animation: move 1s infinite;
+}
+@keyframes move{
+    0%{ transform: translateX(0); }
+    50%{ transform: translateX(5px); }
+    100%{ transform: translateX(0); }
+}
+@keyframes box{
+    0%{ box-shadow: none; }
+    50%{ box-shadow: 0 0 20px rgb(18, 13, 119) }
+    100%{ box-shadow: none; }
+}
+@media only screen and (max-width: 767px){
+    .btn{ margin-bottom: 30px; }
+}
+/* box */

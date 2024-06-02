@@ -1,0 +1,27 @@
+*{
+    font-size: 20px;
+}
+.page-gt {
+    color: black;
+	width: 80%;
+	margin: 50px 0 150px 100px;
+    font-size: 40px;
+    height: 90vh;
+    background-color: beige;
+
+}
+
+.page-header {
+    text-align: center;
+    color: red;
+	height: 40px;
+	background: rgb(33, 79, 186);
+	line-height: 40px;
+	padding-left: 10px;
+}
+
+.page-info {
+  
+	font-size: 15px;
+	margin-top: 20px;
+}

@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Bán Điện Thoại</title>
+  <!-- link cua icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <!-- link-js css -->
+  <link rel="stylesheet" href="/style/css/base.css">
+  <link rel="stylesheet" href="/style/css/style.css">
+  <link rel="stylesheet" href="/style/css/chitietsanpham.css">
+<!-- link slick -->
+<link rel="stylesheet" type="text/css" href="/scripts/data/slick/slick-theme.css"/>
+<link rel="stylesheet" type="text/css" href="/scripts/data/slick/slick.css"/>
+<!-- end link slick -->
+  <!-- luu y nhung file bootstrap truoc sau do toi file base roi toi file style -->
+</head>
+
+
+<body>
+  
+  <!-- top -->
+  <div class="top wow fadeInDown">
+    <div class="top__inner">
+      <div class="top__logo">
+        <a href="index.html">
+          <img src="../image/logo.png" alt="Trang chủ SmartTV Store" title="Trang chủ SmartTV Store">
+        </a>
+      </div>
+      <div class="top__content">
+        <ul>
+          <li class="menu">
+            <a href="index.html">
+              <i class="fa-solid fa-house"></i>
+              Trang Chủ
+            </a>
+          </li>
+          <li class="menu">
+            <a href="tintuc.html">
+              <i class="fa-solid fa-globe"></i>
+              Tin Tức
+            </a>
+          </li>
+          <li class="menu">
+            <a href="tuyendung.html">
+              <i class="fa-solid fa-newspaper"></i>
+              Tuyển dụng
+            </a>
+          </li>
+          <li class="menu">
+            <a href="gioithieu.html">
+              <i class="fa-solid fa-plane"></i>
+              Giới thiệu
+            </a>
+          </li>
+          <li class="menu">
+            <a href="baohanh.html">
+              <i class="fa-solid fa-wrench"></i>
+              Bảo hành
+            </a>
+          </li>
+          <li class="menu">
+            <a href="lienhe.html">
+              <i class="fa-solid fa-truck-fast"></i>
+              Liên hệ
+            </a>
+          </li>
+          <div class="nav-item dropdown" id="dropdown" style="margin-right: 70px;">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+              <i class="fa-solid fa-bars"></i>
+            </a>
+            <div class="dropdown-menu">
+              <a href="index.html" class="dropdown-item">
+                <i class="fa-solid fa-house"></i>
+                Trang Chủ
+              </a>
+              <a href="tintuc.html" class="dropdown-item">
+                <i class="fa-solid fa-globe"></i>
+                Tin Tức
+              </a>
+              <a href="tuyendung.html" class="dropdown-item">
+                <i class="fa-solid fa-newspaper"></i>
+                Tuyển dụng
+              </a>
+              <a href="gioithieu.html" class="dropdown-item">
+                <i class="fa-solid fa-plane"></i>
+                Giới thiệu
+              </a>
+              <a href="baohanh.html" class="dropdown-item">
+                <i class="fa-solid fa-wrench"></i>
+                Bảo hành
+              </a>
+              <a href="lienhe.html" class="dropdown-item">
+                <i class="fa-solid fa-truck-fast"></i>
+                Liên hệ
+              </a>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+    <!-- end top -->
+ <!-- search -->
+ <div class="search">
+    <div class="container">
+        <div class="search__inner">
+                <div class="search__search">
+                    <form  class="header__search--input" action="index.html">
+                        <input id="search-box" name="search" autocomplete="off" type="text" placeholder="Nhập từ khóa tìm kiếm...">
+                        <button type="submit" class="btn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            Tìm kiếm
+                        </button>
+                    </form>
+                </div>
+                <div class="search__user">
+                    
+                  <div class="search__member" style="    margin-bottom: 15px;">
+                      <a href="#" >
+                          <i class="fa-solid fa-user"></i>
+                          Tài khoản
+                      </a>
+                      <div class="countSL"></div>
+  
+                  </div> <!-- End Member -->
+                  <div class="cart">
+                    <a href="giohang.html">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span>Giỏ hàng</span>
+                        <span class="cart-number"></span>
+                    </a>
+                </div> 
+               
+           </div>
+             
+            </div>
+
+           
+        </div>
+    </div>
+  <!-- end search -->
+</div>
+    <div class="product">
+ 
+       
+        <div class="container">
+            <div class="title">
+                <h2 ></h2>
+                <i class="fa-solid fa-star" style="color: #ff0000;"></i>
+                <i class="fa-solid fa-star" style="color: #ff0000;"></i>
+                <i class="fa-solid fa-star" style="color: #ff0000;"></i>
+                <i class="fa-solid fa-star" style="color: #ff0000;"></i>
+                <i class="fa-solid fa-star" style="color: #ff0000;"></i>
+                <span>16 Đánh Giá</span>
+            </div>
+            <div class="chitiet">
+                <div class="row" id="thongtinchitiet">
+                    <div class="col-lg-4">
+                            <div class="image">
+                                <div class="slider-for">
+                                    <div class="box boxImg" ><img src="" alt=""></div>
+                                    <div class="box"><img src="/image/products/sanpham1/tivi-lg-65ur7550psc-2.png" alt="Image 2"></div>
+                                    <div class="box"><img src="/image/products/sanpham1/tivi-lg-65ur7550psc-3.jpg" alt="Image 3"></div>
+                                    <div class="box"><img src="/image/products/sanpham1/tivi-lg-65ur7550psc-4.jpg" alt="Image 4"></div>
+                                    <div  class="box"><img src="/image/products/sanpham1/tivi-lg-65ur7550psc-5.jpg" alt="Image 5"></div>
+                                    <div class="box"><img src="/image/products/sanpham1/tivi-lg-65ur7550psc-6.jpg" alt="Image 6"></div>
+                                  
+                                  </div>
+                                  
+                                  <div class="slider-nav" >
+                                    <div class="box boxImg" ><img src="" alt="Image 1"></div>
+                                    <div class="box"><img src="/image/products/sanpham1/tivi-lg-65ur7550psc-2.png" alt="Image 2"></div>
+                                    <div class="box"><img src="/image/products/sanpham1/tivi-lg-65ur7550psc-3.jpg" alt="Image 3"></div>
+                                    <div class="box"><img src="/image/products/sanpham1/tivi-lg-65ur7550psc-4.jpg" alt="Image 4"></div>
+                                    <div class="box"><img src="/image/products/sanpham1/tivi-lg-65ur7550psc-5.jpg" alt="Image 5"></div>
+                                    <div class="box"><img src="/image/products/sanpham1/tivi-lg-65ur7550psc-6.jpg" alt="Image 6"></div>
+                                  </div>
+                            </div>
+                          
+
+                    </div>
+                    <div class="col-lg-4" id="ThongTin">
+                          <div class="price">
+                            <div class="price_new">     
+                         <p><span>₫</span></p>
+                             </div>
+                          </div>
+                          <div class="ship">
+                            <img src="/image/chitietsanpham/clock-152067_960_720.png">
+                            <div>NHẬN HÀNG TRONG 1 GIỜ</div>
+                        </div>
+                        <div class="area_promo">
+                          <strong style="font-size: 25px;">khuyến mãi</strong>
+                          <div class="promo">
+                              <img src="/image/chitietsanpham/icon-tick.png">
+                              <div id="detailPromo" style="font-size: 15px;"> Sản phẩm sẽ được giảm 500.000₫ khi mua hàng online bằng thẻ VPBank hoặc tin nhắn SMS</div>
+                          </div>
+                       
+                      </div>
+                      <div class="policy">
+                        <div>
+                            <img src="/image/chitietsanpham/box.png">
+                            <p>Trong hộp có: Sạc, Tai nghe, Sách hướng dẫn, Cây lấy sim, Ốp lưng </p>
+                        </div>
+                        <div>
+                            <img src="/image/chitietsanpham/icon-baohanh.png">
+                            <p>Bảo hành chính hãng 12 tháng.</p>
+                        </div>
+                        <div class="last">
+                            <img src="/image/chitietsanpham/1-1.jpg">
+                            <p>1 đổi 1 trong 1 tháng nếu lỗi, đổi sản phẩm tại nhà trong 1 ngày.</p>
+                        </div>
+                    </div>
+                    <div class="area_order">
+                        <a class="buy_now"  >
+                            <b><i class="fa fa-cart-plus"></i> Thêm vào giỏ hàng</b>
+                            <p>Giao trong 1 giờ hoặc nhận tại cửa hàng</p>
+                        </a>
+                    </div>
+                    <div id="thongtinSP" style="display: none;">
+
+                    </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <table>
+                            <thead>
+                                <tr>
+                                        <h2>Thông Số Kỹ Thuật</h2>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Loại Tivi: </td>
+                                    <td>Smart Tivi QLED</td>   
+                                </tr>
+                                <tr>
+                                    <td>Kích cỡ màn hình:  </td>
+                                    <td>65 inch</td>
+                                </tr>
+                                <tr>
+                                    <td>Độ phân giải:   </td>
+                                    <td>Ultra HD 4K</td>
+                                </tr>
+                             
+                                <tr>
+                                    <td>  Kết nối Internet:  </td>
+                                    <td>  Cổng mạng LAN, Wifi</td>
+                                </tr>
+                                <tr>
+                                    <td> Ứng dụng phổ biến :
+      
+                                      </td>
+                                    <td>   YouTube; Netflix; Clip TV;  FPT Play</td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="Sectioncomment">
+    <nav class="navbar navbar-expand-sm navbar-dark">
+        <img src="/image/chitietsanpham/5.png" width="40" height="auto" class="d-inline-block align-top rounded-circle" alt=""> 
+        <a class="navbar-brand ml-2" href="#" data-abc="true" style="color: black;">Tôi An</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation"> 
+            <span class="navbar-toggler-icon"></span> 
+        </button>
+        <div class="end">
+            <div class="collapse navbar-collapse" id="navbarColor02">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item active"> <a class="nav-link mt-2" href="#" data-abc="true" id="clicked">Liên Hệ<span class="sr-only">(current)</span></a> </li>
+                </ul>        
+            </div>
+        </div>    
+    </nav>
+    <!-- Main Body -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-6 ">
+                    <h1>Bình Luận</h1>
+                    <div class="comment a1 mt-4 text-justify float-left" >
+                        <img src="/image/chitietsanpham/2.png" alt="" class="rounded-circle" width="40" height="40">
+                        <h4>J 97 Lo</h4>
+                        <span>-23 Tháng 5 ,2024</span>
+                        <br>
+                        <p>Mẫu TV này có thiết kế tinh tế và sang trọng, dễ dàng phù hợp với bất kỳ không gian nội thất nào. Chất lượng hình ảnh sắc nét, màu sắc trung thực và độ tương phản cao mang lại trải nghiệm xem tuyệt vời. Âm thanh mạnh mẽ, sống động, tạo cảm giác như đang ở trong một buổi hòa nhạc</p>
+                    </div>
+                    <div class="text-justify darker mt-4 float-right" >
+                        <img src="/image/chitietsanpham/3.png" alt="" class="rounded-circle" width="40" height="40">
+                        <h4>Decao Nguyễn</h4>
+                        <span>- 20 Tháng 12, 2023</span>
+                        <br>
+                        <p>TV này có màn hình lớn, viền mỏng, mang lại trải nghiệm xem rộng rãi và thoải mái. Hình ảnh sắc nét, màu sắc tươi sáng và độ chi tiết cao giúp những bộ phim hay chương trình yêu thích trở nên sống động hơn.</p>
+                    </div>
+                    <div class="comment a1 mt-4 text-justify" >
+                        <img src="/image/chitietsanpham/4.png" alt="" class="rounded-circle" width="40" height="40">
+                        <h4>Đạt Vấn</h4>
+                        <span>- 20 Tháng 12, 2023</span>
+                        <br>
+                        <p>Đây là một sản phẩm TV tuyệt vời với nhiều tính năng hiện đại. Màn hình OLED mang lại hình ảnh sắc nét, màu đen sâu và màu sắc rực rỡ. Âm thanh Dolby Atmos tạo ra không gian âm thanh 3D sống động</p>
+                    </div>
+                    <div class="darker mt-4 text-justify">
+                        <img src="/image/chitietsanpham/1.png" alt="" class="rounded-circle" width="40" height="40">
+                        <h4>Thắng Ngọt</h4>
+                        <span>- 06 Tháng 05, 2024</span>
+                        <br>
+                        <p >TV này có chất lượng vượt trội với màn hình 4K Ultra HD, mang lại hình ảnh chi tiết và sống động. Công nghệ HDR tăng cường độ tương phản và màu sắc, cho trải nghiệm xem tuyệt vời. </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12  col-lg-6 ">
+                    <form id="algin-form">
+                        <div class="form-group">
+                            <h4>Để lại một bình luận
+                            </h4>
+                            <label for="message">Tin Nhắn</label>
+                            <textarea name="msg" id=""msg cols="30" rows="5" class="form-control" style="background-color: #Ffff;"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Tên</label>
+                            <input type="text" name="name" id="fullname" class="form-control" style="background-color: #Ffff;">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="email" class="form-control" style="background-color: #Ffff;">
+                        </div>
+                        <div class="form-group">
+                            <p class="text-secondary">Nếu bạn có <a href="#" class="alert-link"> tài khoản,</a> địa chỉ của bạn sẽ được sử dụng để hiển thị ảnh hồ sơ của bạn.</p>
+                        </div>
+                        <div class="form-inline">
+                            <input type="checkbox" name="check" id="checkbx" class="mr-1">
+                            <label for="subscribe">Đồng Ý Với điều Khoản</label>
+                        </div>
+                        <div class="form-group">
+                            <button type="button" id="post" class="btn">Đăng Bình Luận</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+   
+
+   
+
+
+
+</body>
+
+  
+  <!-- bootstrap    -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+    integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+    crossorigin="anonymous"></script>
+  <!-- bootstrap    -->
+  <!-- slick -->
+       <script src="/scripts/data/slick/jquery-3.7.1.js"></script>
+       <script src="/scripts/data/slick/slick.js"></script>
+      <script src="/scripts/data/slick/slick.min.js"></script>
+      <script>
+$('.slider-for').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: true, 
+  fade: true,
+  asNavFor: '.slider-nav'
+});
+
+$('.slider-nav').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  asNavFor: '.slider-for',
+  dots: true,
+  centerMode: true,
+  focusOnSelect: true,
+  arrows: false 
+});
+    </script>
+
+
+
+<script  src="/scripts/chitietsanpham.js"></script>
+
+</html>
